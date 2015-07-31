@@ -1,0 +1,23 @@
+{
+  "vim":
+  [
+    {"id":1,"command":"gg=G", "des":"Ident code"},
+    {"id":2,"command":"42G", "des":"Go to line"},
+    {"id":3,"command":":set nonumber", "des":"Deactivate numbers in lines"},
+    {"id":4,"command":":set number", "des":"Activate numbers in lines"},
+    {"id":5,"command":"\"+y", "des":"Copy to clipboard"}
+  ],
+  "bash":
+  [
+    {"id":1,"command":"ack \"pattern\" *", "des":"Searchs for a pattern recursively in the current path"},
+    {"id":2,"command":"Cntrl+R", "des":"Reverse search"}
+  ],
+  "ucmd":
+  [
+    {"id":1,"command":"ucmd -a \"ls -l\"", "des":"Add command to ucmd"},
+    {"id":2,"command":"ucmd -l commands && ucmd", "des":"List all the commands"},
+    {"id":3,"command":"ucmd -l tags", "des":"List all the tags"},
+    {"id":3,"command":"ucmd -c tagName", "des":"Create a new tag"}
+
+  ]
+}
